@@ -5,6 +5,9 @@ The following dependencies are required for this assignment and the project set 
  - HD Wallet Derive Installation
  - Blockchain TX Installation
 
-Upon executing the command, the following output is attained.
+Upon executing the below command, the following output is attained.
+<kbd>![Command](Screenshots/cmd.png)
 <kbd>![Derive](Screenshots/derive-output.png)
+
+Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.mempool.co/).
 
