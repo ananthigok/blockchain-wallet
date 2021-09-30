@@ -15,9 +15,9 @@ Upon executing the below command, the following output is attained.
 Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.mempool.co/).
 <kbd>![Command](Screenshots/ccode-def-transactions.png)
 <kbd>![Bitcoin Transaction](Screenshots/bitcoin-testnet-transaction.png)
-<kbd>![Wallet](Screenshots/transaction-faucet.png)
+<kbd>![Transaction](Screenshots/transaction-faucet.png)
 
-<kbd>![Wallet](Screenshots/Transaction-success-wallet.png)
-<kbd>![Wallet](Screenshots/transaction-wallet.png)
+<kbd>![Transaction-Success](Screenshots/Transaction-success-wallet.png)
+<kbd>![Transaction](Screenshots/transaction-wallet.png)
 
 
