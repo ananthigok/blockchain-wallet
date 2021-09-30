@@ -73,13 +73,13 @@ def derive_wallets(coin=ETH, mnemonic=mnemonic, depth=3):
         ## 4,5,6 => btctest
         if (i==1):
             privkey = item.get('privkey')
-            print ("priv key is "+privkey)
             account = priv_key_to_account(coin, privkey)
         elif (i==2):
             recipient = item.get('address')
-            amount = 0.00000001
-            create_raw_tx(account, recipient, amount, coin)
-            result = send_tx(account, recipient, amount, coin)
+            amount = 0.01
+            # prefund the account and then do the transaction 
+            #create_raw_tx(account, recipient, amount, coin)
+            #result = send_tx(account, recipient, amount, coin)
     return data_formatted
 
 coins = {
