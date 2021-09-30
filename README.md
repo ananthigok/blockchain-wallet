@@ -17,4 +17,5 @@ Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.
 <kbd>![Bitcoin Transaction](Screenshots/bitcoin-testnet-transaction.png)
 <kbd>![Wallet](Screenshots/transaction-faucet.png)
 
-
+<kbd>![Transaction-Success](Screenshots/Transaction-success-wallet.png)
+<kbd>![Transaction](Screenshots/transaction-wallet.png)
