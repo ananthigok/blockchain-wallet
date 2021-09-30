@@ -10,4 +10,7 @@ Upon executing the below command, the following output is attained.
 <kbd>![Derive](Screenshots/derive-output.png)
 
 Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.mempool.co/).
+<kbd>![Bitcoin Transaction](Screenshots/bitcoin-testnet-transaction.png)
+<kbd>![Wallet](Screenshots/transaction-faucet.png)
+
 
