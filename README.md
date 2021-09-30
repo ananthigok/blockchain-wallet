@@ -1,5 +1,6 @@
 # Multi-Blockchain Wallet in Python
 In this assignment, Bitcoin Testnet Transactions and Local PoA Ethereum transactions were done which involved linking the transaction signing libraries - bit and web3.py - the coding part is done in wallet.py
+<kbd>![Blockchain Wallet](Screenshots/newtons-coin-cradle.jpeg)
 
 The following dependencies are required for this assignment and the project set up with insatllation guidelines are expalined in the requirements.txt file:
  - HD Wallet Derive Installation
