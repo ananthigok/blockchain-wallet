@@ -1,2 +1,36 @@
 # Multi-Blockchain Wallet in Python
+Requirements
+- HD Wallet Derive Installation
+- Blockchain TX Installation
+- PHP - this was installed Using the Homebrew Package Manger for Mac
 
+## HD-Wallet-Derive Install Guide
+This guide serves as a step by step process for setting up the hd-wallet-derive library used to derive BIP32 addresses and private keys for Bitcoin and other alternative coins or "altcoins."
+
+Step 1 - Environment Setup
+
+The hd-wallet-derive library is written in the PHP language; therefore, you will be required to first set up PHP on your machines before installing and then running the hd-wallet-derive library.
+
+Environment Setup in macOS Operating System
+- macOS users will need to update their machine's prebuilt version of PHP to the full version using a package manager for macOS called Homebrew.
+- To do this, visit the Homebrew website and install Homebrew using the given install command.
+- Once Homebrew is installed, execute the following command in your terminal. This should install the latest version of PHP (7.3 at this current time).
+brew install php@7.3
+Next, execute the command appropriate for your system:
+echo "export PATH=/usr/local/opt/php@7.3/bin:$PATH" >> ~/.bash_profile
+- Close the terminal.
+- Open a NEW terminal, then verify that PHP version 7.3 is the current version in your system by executing the following command:
+php -version
+
+Step 2 - Installing hd-wallet-derive
+With the latest version of PHP installed on our machines, we can now proceed to the installation of the hd-wallet-derive library.
+- With your terminal open, cd into your `Blockchain-Tools folder and run the following code:
+----
+git clone https://github.com/dan-da/hd-wallet-derive
+cd hd-wallet-derive
+curl https://getcomposer.org/installer -o installer.php
+php installer.php
+php composer.phar install
+----
+
+## You should now have a folder called hd-wallet-derive containing the PHP library!
