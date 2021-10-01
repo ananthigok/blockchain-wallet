@@ -4,9 +4,11 @@ In this assignment, Bitcoin Testnet Transactions and Local PoA Ethereum transact
 
 The following dependencies are required for this assignment and the project set up with insatllation guidelines are expalined in the requirements.txt file:
  - HD Wallet Derive Installation
+ 
  <kbd>![Command](Screenshots/hd-wallet-derive-cmd-line.png)
   
 - Derived the wallet keys
+  
 <kbd>![Command](Screenshots/hd-wallet-derive.png)
 
  - Blockchain TX Installation
@@ -29,5 +31,7 @@ Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.
 <kbd>![Bitcoin Transaction](Screenshots/bitcoin-testnet-transaction.png)
  
 <kbd>![Wallet](Screenshots/transaction-faucet.png)
+ 
+##Local PoA Ethereum transaction
 <kbd>![Transaction-Success](Screenshots/Transaction-success-wallet.png)
 <kbd>![Transaction](Screenshots/transaction-wallet.png)
