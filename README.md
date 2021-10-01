@@ -9,14 +9,23 @@ The following dependencies are required for this assignment and the project set 
 
  - Blockchain TX Installation
 
-Upon executing the below command, the following output is attained.
+ ## Short description of the Wallet
+ 
+- A Mnemonic was created using [the online tool](https://iancoleman.io/bip39/) initially 
+ 
+- A php derive command is created with the Mnemonic, the coin type, the numderivative which defines the number of children accounts to retain from data 
 <kbd>![Command](Screenshots/cmd.png)
-<kbd>![Derive](Screenshots/derive-output.png)
+ 
+- The output data is retrieved by running the above command 
+ <kbd>![Derive](Screenshots/derive-output.png)
+  
+- With the privkey from the data retained and using method "priv_key_to_account" the sender Account and recipient address is fetched
+- By passing the account, amount and coin details to create and send transaction functions - the transaction is done 
+ <kbd>![Command](Screenshots/code-def-transactions.png) 
 
 Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.mempool.co/).
-<kbd>![Command](Screenshots/code-def-transactions.png)
 <kbd>![Bitcoin Transaction](Screenshots/bitcoin-testnet-transaction.png)
+ 
 <kbd>![Wallet](Screenshots/transaction-faucet.png)
-
 <kbd>![Transaction-Success](Screenshots/Transaction-success-wallet.png)
 <kbd>![Transaction](Screenshots/transaction-wallet.png)
