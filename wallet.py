@@ -53,8 +53,7 @@ def send_tx(account, recipient, amount, coin):
         signed_tx = account.sign_transaction(raw_tx)
         return NetworkAPI.broadcast_tx_testnet(signed)    
     
-## To Do put in env 
-mnemonic = 'auto inside food rocket dignity service remember brand grit jacket iron goddess load athlete odor' #os.getenv("mnemonic")
+mnemonic = os.getenv("MNEMONIC")
 
 def derive_wallets(coin=ETH, mnemonic=mnemonic, depth=3):
     cols= "all" #"path,address,index,privkey,pubkey,pubkeyhash"
