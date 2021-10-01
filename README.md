@@ -27,11 +27,11 @@ The following dependencies are required for this assignment and the project set 
 - By passing the account, amount and coin details to create and send transaction functions - the transaction is done 
  <kbd>![Command](Screenshots/code-def-transactions.png) 
 
-Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.mempool.co/).
+### Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.mempool.co/).
 <kbd>![Bitcoin Transaction](Screenshots/bitcoin-testnet-transaction.png)
  
 <kbd>![Wallet](Screenshots/transaction-faucet.png)
  
-##Local PoA Ethereum transaction
+## Local PoA Ethereum transaction
 <kbd>![Transaction-Success](Screenshots/Transaction-success-wallet.png)
 <kbd>![Transaction](Screenshots/transaction-wallet.png)
