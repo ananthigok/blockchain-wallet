@@ -13,8 +13,8 @@ The following dependencies are required for this assignment and the project set 
  
 - A Mnemonic was created using [the online tool](https://iancoleman.io/bip39/) initially 
  
-- A php derive command is created with the Mnemonic, the coin type, the numderivative which defines the number of children accounts to retain from data 
-<kbd>![Command](Screenshots/cmd.png)
+- A php derive command is created with the Mnemonic, the coin type, also adding the numderivative in the command defines the number of children accounts to retain from data 
+<kbd>![Command](Screenshots/command.png)
  
 - The output data is retrieved by running the above command 
  <kbd>![Derive](Screenshots/derive-output.png)
