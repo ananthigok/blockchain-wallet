@@ -56,10 +56,10 @@ def send_tx(account, recipient, amount, coin):
 mnemonic = os.getenv("MNEMONIC")
 
 def derive_wallets(coin=ETH, mnemonic=mnemonic, depth=3):
-    cols= "all" #"path,address,index,privkey,pubkey,pubkeyhash"
+    cols= "path,address,privkey,pubkey" #"pubkeyhash" #all 
     mnemonic = 'auto inside food rocket dignity service remember brand grit jacket iron goddess load athlete odor'
     print("coin is "+coin)
-    cmd = f"php ./derive -g --mnemonic='{mnemonic}' --cols=path,address,privkey,pubkey --coin='{coin}' --numderive={depth} --format=json"
+    cmd = f"php ./derive -g --mnemonic='{mnemonic}' --cols={cols} --coin='{coin}' --numderive={depth} --format=json"
     print (cmd)
     output = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True) #subprocess.run(cmd, shell=True, check=True)
     (data, err) = output.communicate()
@@ -68,17 +68,17 @@ def derive_wallets(coin=ETH, mnemonic=mnemonic, depth=3):
     i=0
     for item in data_formatted:
         i += 1  
-        ## 1,2,3 => eth
-        ## 4,5,6 => btctest
         if (i==1):
             privkey = item.get('privkey')
             account = priv_key_to_account(coin, privkey)
         elif (i==2):
             recipient = item.get('address')
             amount = 0.01
-            # prefund the account and then do the transaction 
+            
+            # prefund the account first and then uncomment the below call to functions create and send will do the transaction 
             #create_raw_tx(account, recipient, amount, coin)
             #result = send_tx(account, recipient, amount, coin)
+            
     return data_formatted
 
 coins = {
