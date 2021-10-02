@@ -22,8 +22,8 @@ The following dependencies are required for this assignment and the project set 
 - The output data is retrieved by running the above command 
  <kbd>![Derive](Screenshots/derive-output.png)
   
-- With the privkey from the data retained and using method "priv_key_to_account" the sender Account and recipient address is fetched
-- By passing the account, amount and coin details to create and send transaction functions - the transaction is done 
+- With the privkey from the data retained and using method "priv_key_to_account" the sender Account is fetched
+- By passing the sender account, recipient address, amount and coin details to create and send transaction functions - the transaction is done 
  <kbd>![Command](Screenshots/code-def-transactions.png) 
 
 ### Bitcoin transaction was done using this [testnet faucet](https://testnet-faucet.mempool.co/).
